@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/LightSkyBlue" >
+
+<TextView
+    android:id="@+id/load"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/progressBar1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="42dp"
+    android:textColor="#000000" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/load"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="26dp"
+    android:layout_marginLeft="41dp"
+    android:text="Graha Gombel"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="40sp" />
+
+<ProgressBar
+    android:id="@+id/progressBar1"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="140dp"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="190dp" />
+
+</RelativeLayout>

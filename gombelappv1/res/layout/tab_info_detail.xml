@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<ListView
+	    android:id="@+id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:layout_weight="0.50"
+	    android:background="@color/LightSkyBlue"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp" >
+
+	    </ListView>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="20dp"
+	    android:layout_weight="0"
+	    android:background="@color/Black" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/komentar"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="@color/AntiqueWhite"
+	        android:textSize="15sp" />
+
+	</RelativeLayout>
+
+	<ListView
+	    android:id="@+id/listView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_weight="0.40"
+	    android:background="@color/LightGrey" >
+
+	</ListView>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/Black" >
+
+		<Button
+		    android:id="@+id/buttonkomentar"
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp"
+		    android:layout_alignWithParentIfMissing="false"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerInParent="true"
+		    android:layout_centerVertical="true"
+		    android:layout_margin="@dimen/activity_horizontal_margin"
+		    android:background="@color/OrangeRed"
+		    android:text="@string/tambah_komentar"
+		    android:textColorHint="@color/Coral"
+		    android:textSize="15sp" />
+
+	</RelativeLayout>
+	    <include layout="@layout/tab_layout" />
+</LinearLayout>

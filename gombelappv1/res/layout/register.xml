@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightSkyBlue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black"
+        android:text="@string/register_akun"
+        android:gravity="right"
+        android:textColor="@color/White" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:text="Alamat Email Anda" />
+		
+    </RelativeLayout>
+
+	<EditText
+	    android:id="@+id/editTxtemail"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="?android:attr/editTextBackground"
+	    android:gravity="top"
+	    android:inputType="textEmailAddress"
+	    android:lines="4" />
+
+	<requestFocus />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:text="Password" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editTxtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/editTextBackground"
+        android:gravity="top"
+        android:inputType="textPassword"
+        android:lines="4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:text="Nama Anda" />
+
+    </RelativeLayout>
+
+		<EditText
+            android:id="@+id/edittxtnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/editTextBackground"
+            android:gravity="top"
+            android:inputType="text"
+            android:lines="4" />
+
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/buttonregister"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="48dp"
+		        android:text="@string/register" />
+
+		    <Button
+		        android:id="@+id/buttoncancel"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="30dp"
+		        android:layout_toRightOf="@+id/buttonregister"
+		        android:text="Cancel" />
+
+		</RelativeLayout>
+
+</LinearLayout>

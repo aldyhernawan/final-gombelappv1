@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ActivityBar"
+    style="@style/ActivityBarStyle"
+    android:layout_alignParentBottom="true"
+    android:background="@color/DeepSkyBlue" >
+
+    <ImageButton
+        android:id="@+id/imageButtoninfo"
+        style="@style/ActivityButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/info_small" />
+
+    <ImageButton
+        android:id="@+id/imageButtonevent"
+        style="@style/ActivityButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/event_small" />
+
+   <!--  <ImageButton
+        android:id="@+id/imageButtonlokasi"
+        style="@style/ActivityButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/lokasi_small" />
+-->
+    <ImageButton
+        android:id="@+id/imageButtonsaran"
+        style="@style/ActivityButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/saran_small" />
+
+    <ImageButton
+        android:id="@+id/imageButtonuser"
+        style="@style/ActivityButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/user_small" />
+
+</LinearLayout>

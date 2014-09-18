@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gombelapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab1_fix">Tab 1</string>
+    <string name="large_text">Tab 1</string>
+    <string name="info_kini">Info Kini</string>
+    <string name="klik_untuk_menambahkan_saran_pertanyaan">Klik Untuk Menambahkan saran/Pertanyaan</string>
+    <string name="medium_text">Komentar</string>
+    <string name="topik">Topik</string>
+    <string name="saran_pertanyaan">Saran/Pertanyaan</string>
+    <string name="button">Submit</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="event_terbaru">Event Terbaru</string>
+    <string name="lokasi_anda">Lokasi Anda</string>
+    <string name="user">User</string>
+	<string name="waktu">waktu</string>
+	<string name="judul">Judul</string>
+	<string name="isi">Isi</string>
+	<string name="id">id</string>
+	<string name="komentar_anda">Komentar Anda</string>
+	<string name="submit_komentar">Submit Komentar</string>
+	<string name="komentar_info">Komentar Info</string>
+	<string name="add_komentar">Add Komentar</string>
+	<string name="tambah_komentar">Tambah Komentar</string>
+	<string name="isi_komentar">Isi Komentar</string>
+	<string name="komentar">Komentar</string>
+	<string name="kirim_saran_pertanyaan">Kirim Saran / Pertanyaan</string>
+	<string name="judul_topik">Judul/Topik</string>
+	<string name="submit_saran_pertanyaan">Submit Saran/Pertanyaan</string>
+	<string name="login_user">Login User</string>
+	<string name="email_anda">Email Anda</string>
+	<string name="password_anda">Password Anda</string>
+	<string name="login">Login</string>
+	<string name="register">Register</string>
+	<string name="belum_punya_akun_">Belum punya akun?</string>
+	<string name="create_akun">Create Akun</string>
+	<string name="register_akun">Register Akun</string>
+	<string name="client">client</string>
+</resources>

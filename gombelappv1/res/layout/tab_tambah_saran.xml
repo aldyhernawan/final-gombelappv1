@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black" >
+
+        <TextView
+            android:id="@+id/kode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            android:textColor="#dc6800"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/judul_topik"
+            android:textColor="@color/OrangeRed"
+            android:textColorHint="@color/AntiqueWhite"
+            android:textColorLink="@color/White"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nama_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/id"
+            android:textColor="#dc6800"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightSkyBlue" >
+
+        <EditText
+            android:id="@+id/judul_saran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/editTextBackground"
+            android:gravity="top"
+            android:inputType="text"
+            android:lines="4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:background="@color/Black" >
+
+        <TextView
+            android:id="@+id/komentar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/saran_pertanyaan"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/OrangeRed"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/LightSkyBlue" >
+
+		<EditText
+		    android:id="@+id/inputsaran"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:gravity="top"
+		    android:inputType="text"
+		    android:lines="4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black" >
+
+        <Button
+            android:id="@+id/buttonsubmitsaran"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@color/OrangeRed"
+            android:text="@string/submit_saran_pertanyaan" />
+
+    </RelativeLayout>
+	<include layout="@layout/tab_layout" />
+</LinearLayout>
